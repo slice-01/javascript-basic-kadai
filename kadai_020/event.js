@@ -1,5 +1,5 @@
 const btn = document.getElementById('btn');
-const msg = document.getElementById('text')
+const msg = document.getElementById('text');
 
 function clickHandler() {
   msg.textContent = "ボタンをクリックしました";
