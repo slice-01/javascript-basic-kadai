@@ -1,7 +1,8 @@
 const btn = document.getElementById('btn');
+const msg = document.getElementById('text')
 
 function clickHandler() {
-  document.getElementById('text').textContent = "ボタンをクリックしました";
+  msg.textContent = "ボタンをクリックしました";
 }
 
 btn.addEventListener('click',clickHandler);
